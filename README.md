@@ -1,35 +1,43 @@
-AES Encryption in Python
+This project demonstrates how to securely encrypt and decrypt messages using the Advanced Encryption Standard (AES) in Python. It compares both CBC (Cipher Block Chaining) and ECB (Electronic Codebook) modes using the cryptography library.
 
-This project demonstrates how to securely encrypt and decrypt text using the Advanced Encryption Standard (AES) in Python. It supports both CBC (Cipher Block Chaining) and ECB (Electronic Codebook) modes and uses the cryptography library.
+🔐 Features
 
-Features
-	•	Encrypt plaintext messages using AES encryption
-	•	Decrypt ciphertext back to readable plaintext
-	•	Uses randomly generated keys and IVs
-	•	Supports both CBC and ECB encryption modes
-	•	Includes proper error handling
+AES-256 encryption using CBC and ECB modes
 
-Technologies Used
-	•	Python 3.x
-	•	cryptography library (PyCA)
+Randomly generated secure key (256-bit) and IV (for CBC)
 
-How to Run
-	1.	Install the required library:
+Padding logic to meet AES block size requirements
+
+Clear output showing encrypted and decrypted messages
+
+🖼️ Example Output
+
+Below is an actual screenshot showing the script successfully encrypting and decrypting a message using both AES modes:
+
+
+
+🧪 Technologies Used
+
+Python 3.13
+
+cryptography (PyCA)
+
+Windows Command Prompt
+
+▶️ How to Run This Project
+
+Install Python 3.13 and ensure it's added to your system PATH
+
+Install the cryptography library:
+
 pip install cryptography
-	2.	Run the script:
+
+Run the script:
+
 python aes_encryption.py
 
-Example Output
+👤 Author
 
-Original Text: Hello World
-Encrypted (CBC): b’g84F2jk1…’
-Decrypted Text: Hello World
+Rachid Dwyer Cybersecurity Intern @ Refonte Master’s in Cybersecurity Technology (UMGC)
 
-Notes
-	•	CBC mode is more secure and recommended for actual use.
-	•	ECB mode is included to demonstrate how different cipher modes affect encryption behavior.
-	•	This project is for learning purposes and should not be used in production without additional security measures.
 
-Author
-
-Rachid Dwyer – Refonte Cybersecurity Internship Project
