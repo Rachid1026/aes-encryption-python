@@ -1,43 +1,59 @@
-This project demonstrates how to securely encrypt and decrypt messages using the Advanced Encryption Standard (AES) in Python. It compares both CBC (Cipher Block Chaining) and ECB (Electronic Codebook) modes using the cryptography library.
+# AES Encryption in Python
 
-🔐 Features
+This project demonstrates how to securely encrypt and decrypt messages using the Advanced Encryption Standard (AES) in Python. It compares both CBC (Cipher Block Chaining) and ECB (Electronic Codebook) modes using the `cryptography` library.
 
-AES-256 encryption using CBC and ECB modes
+---
 
-Randomly generated secure key (256-bit) and IV (for CBC)
+## 🔐 Features
 
-Padding logic to meet AES block size requirements
+- AES-256 encryption using CBC and ECB modes
+- Randomly generated secure key (256-bit) and IV (for CBC)
+- Padding logic to meet AES block size requirements
+- Clear output showing encrypted and decrypted messages
+- Demonstrates differences between CBC and ECB encryption behavior
 
-Clear output showing encrypted and decrypted messages
+---
 
-🖼️ Example Output
+## 🖼️ Example Output
 
-Below is an actual screenshot showing the script successfully encrypting and decrypting a message using both AES modes:
+Below is a screenshot showing the script successfully encrypting and decrypting a message using both AES modes:
 
+![CBC and ECB Output](cbcebc_encryption_output.png)
 
+---
 
-🧪 Technologies Used
+## 🧪 Technologies Used
 
-Python 3.13
+- Python 3.13
+- [`cryptography`](https://cryptography.io/en/latest/) (PyCA)
+- Windows Command Prompt
 
-cryptography (PyCA)
+---
 
-Windows Command Prompt
+## ▶️ How to Run This Project
 
-▶️ How to Run This Project
+1. Install Python 3.13 and ensure it's added to your system PATH  
+2. Install the cryptography library:
+   ```bash
+   pip install cryptography
+   ```
+3. Run the script:
+   ```bash
+   python aes_encryption.py
+   ```
 
-Install Python 3.13 and ensure it's added to your system PATH
+---
 
-Install the cryptography library:
+## 📌 Notes
 
-pip install cryptography
+- CBC mode is more secure and recommended for actual use.
+- ECB mode is included to demonstrate how different cipher modes affect encryption behavior.
+- This project is for learning purposes and should not be used in production without additional security measures.
 
-Run the script:
+---
 
-python aes_encryption.py
+## 👤 Author
 
-👤 Author
-
-Rachid Dwyer Cybersecurity Intern @ Refonte Master’s in Cybersecurity Technology (UMGC)
-
-
+**Rachid Dwyer**  
+Cybersecurity Intern @ Refonte  
+Master’s in Cybersecurity Technology (UMGC)  
