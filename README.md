@@ -4,7 +4,7 @@ This project demonstrates how to securely encrypt and decrypt messages using the
 
 ---
 
-## 🔐 Features
+##  Features
 
 - AES-256 encryption using CBC and ECB modes
 - Randomly generated secure key (256-bit) and IV (for CBC)
@@ -14,7 +14,7 @@ This project demonstrates how to securely encrypt and decrypt messages using the
 
 ---
 
-## 🖼️ Example Output
+##  Example Output
 
 Below is a screenshot showing the script successfully encrypting and decrypting a message using both AES modes:
 
@@ -30,7 +30,7 @@ Below is a screenshot showing the script successfully encrypting and decrypting 
 
 ---
 
-## ▶️ How to Run This Project
+##  How to Run This Project
 
 1. Install Python 3.13 and ensure it's added to your system PATH  
 2. Install the cryptography library:
@@ -44,7 +44,7 @@ Below is a screenshot showing the script successfully encrypting and decrypting 
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - CBC mode is more secure and recommended for actual use.
 - ECB mode is included to demonstrate how different cipher modes affect encryption behavior.
@@ -52,7 +52,7 @@ Below is a screenshot showing the script successfully encrypting and decrypting 
 
 ---
 
-## 👤 Author
+## Author
 
 **Rachid Dwyer**  
 Cybersecurity Intern @ Refonte  
