@@ -22,7 +22,7 @@ Below is a screenshot showing the script successfully encrypting and decrypting 
 
 ---
 
-## 🧪 Technologies Used
+##  Technologies Used
 
 - Python 3.13
 - [`cryptography`](https://cryptography.io/en/latest/) (PyCA)
@@ -56,4 +56,6 @@ Below is a screenshot showing the script successfully encrypting and decrypting 
 
 **Rachid Dwyer**  
 Cybersecurity Intern @ Refonte  
-Master’s in Cybersecurity Technology (UMGC)  
+Master’s in Cybersecurity Technology (UMGC) 
+GitHub: [https://github.com/your-github-username](https://github.com/Rachid1026)
+
