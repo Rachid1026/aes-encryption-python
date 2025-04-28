@@ -18,7 +18,8 @@ This project demonstrates how to securely encrypt and decrypt messages using the
 
 Below is a screenshot showing the script successfully encrypting and decrypting a message using both AES modes:
 
-![CBC and ECB Output](cbcebc_encryption_output.png)
+![Encryption and Decryption Demo](./cbcebc_encryption_output.PNG)
+
 
 ---
 
