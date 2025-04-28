@@ -57,5 +57,5 @@ Below is a screenshot showing the script successfully encrypting and decrypting 
 **Rachid Dwyer**  
 Cybersecurity Intern @ Refonte  
 Master’s in Cybersecurity Technology (UMGC) 
-GitHub: [https://github.com/your-github-username](https://github.com/Rachid1026)
+GitHub: [https://github.com/your-github-Rachid1026](https://github.com/Rachid1026)
 
